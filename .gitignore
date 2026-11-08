@@ -1,0 +1,22 @@
+# Maven build
+target/
+
+# Bytecode
+*.class
+
+# IDE specific files
+.settings/
+.metadata/
+nbproject/private/
+build/
+dist/
+.idea/
+*.iml
+*.iws
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

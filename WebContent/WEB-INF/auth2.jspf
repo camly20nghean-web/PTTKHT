@@ -1,0 +1,20 @@
+<%@ page import="model.User2, model.Reader2, model.Manager2, util.Web2, util.Validation2, dao.DataAccessException2" %>
+<%
+    request.setCharacterEncoding("UTF-8");
+    response.setHeader("Cache-Control", "no-store");
+    response.setHeader("X-Content-Type-Options", "nosniff");
+    Object authenticatedUser = session.getAttribute("currentUser");
+    if (!(authenticatedUser instanceof User2)) {
+        response.sendRedirect("index.jsp");
+        return;
+    }
+    User2 authorizedUser = (User2) authenticatedUser;
+    boolean allowed = ("READER".equals(requiredRole) && authenticatedUser instanceof Reader2
+            && "READER".equalsIgnoreCase(authorizedUser.getRole()))
+            || ("MANAGER".equals(requiredRole) && authenticatedUser instanceof Manager2
+            && "MANAGER".equalsIgnoreCase(authorizedUser.getRole()));
+    if (!allowed) {
+        response.sendError(403, "Tài khoản không có quyền truy cập chức năng này.");
+        return;
+    }
+%>
