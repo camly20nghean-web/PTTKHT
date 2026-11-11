@@ -1,6 +1,6 @@
 # HƯỚNG DẪN CÀI ĐẶT VÀ VẬN HÀNH HỆ THỐNG LIBMAN2 TRÊN NETBEANS
 **Hệ thống Quản lý Thư viện - Môn học Phân tích và Thiết kế Hệ thống (PTIT)**
-**Giảng viên phụ trách: TS. Đỗ Thị Ngọc**
+**Giảng viên phụ trách: TS. Đỗ Thị Bích Ngọc**
 **Môi trường: Apache NetBeans IDE & Apache Tomcat**
 
 ---
