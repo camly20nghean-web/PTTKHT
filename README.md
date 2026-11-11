@@ -63,9 +63,9 @@ Nếu bạn hoặc thầy cô yêu cầu mở theo chuẩn Ant Web Project truy�
 ### Tài khoản đăng nhập hệ thống:
 | Phân hệ / Vai trò | Username | Password | Tên người dùng |
 | :--- | :--- | :--- | :--- |
-| **Bạn đọc (Module 1)** | `reader1` | `password123` | Lê Bạn Đọc (Mã thẻ: CARD-001) |
-| **Quản lý (Module 2)**| `manager` | `password123` | Nguyễn Văn An |
-| **Thủ thư** | `librarian1` | `password123` | Trần Thị Bình |
+| **Bạn đọc (Module 1)** | `reader1` | `123456` | Lê Bạn Đọc (Mã thẻ: CARD-001) |
+| **Quản lý (Module 2)**| `manager` | `123456` | Nguyễn Văn An |
+| **Thủ thư** | `librarian1` | `123456` | Trần Thị Bình |
 
 *Ghi chú: Tại trang đăng nhập `index.jsp` có sẵn 2 nút truy cập nhanh:*
 - **👉 Vào Giao diện Bạn đọc (Module 1)**: Tìm kiếm tài liệu, xem chi tiết và trạng thái các cuốn sách.
